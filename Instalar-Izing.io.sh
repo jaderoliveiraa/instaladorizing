@@ -43,7 +43,7 @@ if [[ "$OUTPUT" == *"errorMessages"* ]]; then
 	printf "Autenticação falhou, Baixando Instalador Padrão\n\n"
         sleep 2
         cd 
-        git clone https://github.com/Silvioerick/izing.io.installer-master.git
+        git clone https://github.com/jaderoliveiraa/newizing.git
         cd izing.io.installer-master
         bash izing
 	#rm -Rf *
